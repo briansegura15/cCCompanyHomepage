@@ -2,6 +2,23 @@ html {
   font-size: 62.5%;
 }
 
+/* Z letter style */
+.z {
+  color: rgb(235, 239, 2);
+  font-weight: 900;
+  font-family: "IM Fell DW Pica", serif;
+}
+
+/* Inc letter style */
+.inc {
+  color: rgb(77, 187, 255);
+}
+
+/* Ball letter style */
+.ballz {
+  color: rgb(250, 41, 41);
+}
+
 /* header/navbar section */
 
 #nav-bar-container {
@@ -30,16 +47,6 @@ html {
   font-family: "Permanent Marker", cursive;
 }
 
-.z {
-  color: rgb(235, 239, 2);
-  font-weight: 900;
-  font-family: "IM Fell DW Pica", serif;
-}
-
-.inc {
-  color: rgb(77, 187, 255);
-}
-
 #icon img {
   max-height: 3.5rem;
 }
@@ -61,7 +68,6 @@ html {
 #parallax {
   margin-top: 15rem;
   height: 50rem;
-  /* width: 50rem; */
   background-image: url(./images/mark-basarab-1OtUkD_8svc-unsplash.jpg);
   background-attachment: fixed;
   background-position: center center;
@@ -119,11 +125,6 @@ html {
   text-align: center;
 }
 
-.ballz {
-  /* text-decoration: underline; */
-  color: rgb(250, 41, 41);
-}
-
 .font {
   font-family: "Tiro Tamil", serif;
 }
@@ -170,7 +171,6 @@ html {
 
 .baller-info h2 {
   margin-bottom: 3rem;
-  /* font-size: 3rem; */
   border-bottom: solid black 0.1rem;
   width: 42ch;
   font-size: 3.5rem;
@@ -219,7 +219,7 @@ html {
   margin-bottom: 5rem;
 }
 
-/* battles section */
+/* battles section (Gallery) */
 
 #battles {
   background-color: black;
@@ -300,6 +300,8 @@ footer {
 }
 
 @media only screen and (max-width: 550px) {
+  /* header/navbar section */
+
   #nav-bar-container {
     padding: 0.8rem;
   }
@@ -315,6 +317,9 @@ footer {
     margin-right: 1.1rem;
     font-size: 1.5rem;
   }
+
+  /* Main Container Content */
+
   #parallax {
     margin-top: 10rem;
     height: 69rem;
@@ -369,6 +374,8 @@ footer {
     font-size: 3rem;
   }
 
+  /* ballers (team) section */
+
   #ballerz {
     width: 140%;
   }
@@ -401,7 +408,6 @@ footer {
     margin-bottom: 2rem;
   }
   .baller-info li {
-    /* margin-right: 0.5rem; */
     font-size: 2.7rem;
   }
 
@@ -426,6 +432,8 @@ footer {
     flex-direction: column;
   }
 
+  /* battles section (Gallery) */
+
   #battles {
     width: 140%;
   }
@@ -444,6 +452,8 @@ footer {
     margin-left: 17rem;
     font-size: 4rem;
   }
+
+  /* Footer Section */
 
   footer {
     width: 140%;
@@ -482,6 +492,8 @@ footer {
 }
 
 @media only screen and (max-width: 380px) {
+  /* header/navbar section */
+
   #nav-bar-container {
     padding: 5rem;
   }
@@ -497,6 +509,9 @@ footer {
     margin-right: 1.1rem;
     font-size: 1.5rem;
   }
+
+  /* Main Container Content */
+
   #parallax {
     margin-top: 18rem;
     height: 88rem;
@@ -551,6 +566,8 @@ footer {
     font-size: 3rem;
   }
 
+  /* ballers (team) section */
+
   #ballerz {
     width: 160%;
   }
@@ -582,7 +599,6 @@ footer {
     margin-bottom: 2rem;
   }
   .baller-info li {
-    /* margin-right: 0.5rem; */
     font-size: 2.7rem;
   }
 
@@ -614,6 +630,8 @@ footer {
     padding-left: 3rem;
   }
 
+  /* battles section (Gallery) */
+
   #battles {
     width: 160%;
   }
@@ -632,6 +650,8 @@ footer {
     margin-left: 12rem;
     font-size: 5rem;
   }
+
+  /* Footer Section */
 
   footer {
     width: 160%;
