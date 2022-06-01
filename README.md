@@ -1,7 +1,6 @@
 ## Table of contents
 
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -19,9 +18,7 @@ Create a Company Homepage that includes the following
 - A list or set of images 
 - A section describing some of the company's employees or teammates
 
-### Screenshot
 
-![](images/_cCCompanyHomepage/blob/main/resources/images/briansegura15.github.io_cCCompanyHomepage_%20(2).png)
 
 
 
